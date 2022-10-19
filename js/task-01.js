@@ -10,6 +10,36 @@ cat.forEach(caty => {
 }
 );
 
+let cats = ["cat", "dog", "parrot"];
+
+for (let i = 0; i < cats.length; i += 1) {
+    if (cats[i] = "dog") 
+        console.log(cats[i]);
+    
+}
+// const users = 
+//     {
+//         money: true,
+//         price: 50,
+//         happiness: true,
+//         whatchaLookin(amogus) {
+//             console.log(`Ur under arrest, ${amogus}`);
+//             console.log(this);
+//         }
+//     }
+
+
+
+// function bind(callback, o) {
+//     return function (...c) {
+//             callback.apply(o, c)
+//         }
+//     }
+// const fn = bind(users.whatchaLookin, users);
+
+// fn("sus");
+
+
 
 // const catItem = document.querySelectorAll('ul > li > ul')
 // let catNum = 0;
